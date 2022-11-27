@@ -1,4 +1,4 @@
--- made by charlieee#0002 lol
+-- made by charlieee#5458 lol
 
 local ii = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -43,7 +43,7 @@ info.BackgroundTransparency = 1.000
 info.Position = UDim2.new(0.581986129, 0, 0.218905479, 0)
 info.Size = UDim2.new(0, 166, 0, 142)
 info.Font = Enum.Font.Fantasy
-info.Text = "All scripts made by charlieee#0002. If this script is shared without notice from an administrator of MANOHax™, you will be blacklisted from using said script. 70+ total commands active. Thanks for using the official MANOHax™ v2.1 GUI!"
+info.Text = "All scripts made by charlieee#5458. If this script is shared without notice from an administrator of MANOHax™, you will be blacklisted from using said script. 70+ total commands active. Thanks for using the official MANOHax™ v2.1 GUI!"
 info.TextColor3 = Color3.fromRGB(203, 203, 203)
 info.TextScaled = true
 info.TextSize = 66.000
@@ -213,7 +213,7 @@ local function LPFCW_fake_script() -- Frame.LocalScript
             end)
         end
 		-- Buy Items
-        if(string.lower(Chat) == "buyglock") then
+        if(string.lower(Chat) == "buyglock" or string.lower(Chat) == "bg") then
 			Game:GetService("ReplicatedStorage").ATMAction:FireServer("Withdraw", 1200)
 			workspace.DealersScript:WaitForChild("BuyItem"):InvokeServer("Glock19(LEGAL)", 1200, "Cash")
 		end
@@ -229,11 +229,11 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 			Game:GetService("ReplicatedStorage").ATMAction:FireServer("Withdraw", 5000)
 			workspace.DealersScript:WaitForChild("BuyItem"):InvokeServer("Shotgun(LEGAL)", 5000, "Cash")
 		end
-		if(string.lower(Chat) == "buycolt") then
+		if(string.lower(Chat) == "buycolt" or string.lower(Chat) == "bc") then
 			Game:GetService("ReplicatedStorage").ATMAction:FireServer("Withdraw", 1750)
 			workspace.DealersScript:WaitForChild("BuyItem"):InvokeServer("ColtPython(LEGAL)", 1750, "Cash")
 		end
-		if(string.lower(Chat) == "buyknife") then
+		if(string.lower(Chat) == "buyknife" or string.lower(Chat) == "bk") then
 			Game:GetService("ReplicatedStorage").ATMAction:FireServer("Withdraw", 700)
 			workspace.DealersScript:WaitForChild("BuyItem"):InvokeServer("Knife(ILLEGAL)", 700, "Cash")
 		end
@@ -263,7 +263,7 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 		    game:GetService("ReplicatedStorage").MCSOLocker:FireServer("Cap")
 		    game:GetService("ReplicatedStorage").MCSOLocker:FireServer("Belt, 1")
 	    end
-		if(string.lower(Chat) == "wearswat") then
+		if(string.lower(Chat) == "wearswat" or string.lower(Chat) == "ws") then
 		    game:GetService("ReplicatedStorage").SWATLocker:FireServer("M4Vest")
 		    game:GetService("ReplicatedStorage").SWATLocker:FireServer("Vest")
 		    game:GetService("ReplicatedStorage").SWATLocker:FireServer("Helmet")
@@ -272,7 +272,7 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 		    game:GetService("ReplicatedStorage").SWATLocker:FireServer("Holster")
 		    game:GetService("ReplicatedStorage").SWATLocker:FireServer("Hat",1)
 	    end
-		if(string.lower(Chat) == "wearcmpd") then
+		if(string.lower(Chat) == "wearcmpd" or string.lower(Chat) == "wc") then
 		    game:GetService("ReplicatedStorage").CTPDLocker:FireServer("Vest")
 		    game:GetService("ReplicatedStorage").CTPDLocker:FireServer("Cap")
 		    game:GetService("ReplicatedStorage").CTPDLocker:FireServer("MP5Vest")
@@ -284,7 +284,7 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 		    game:GetService("ReplicatedStorage").CTPDLocker:FireServer("Hat",4)
 		    game:GetService("ReplicatedStorage").CTPDLocker:FireServer("Belt",1)
 	    end
-		if(string.lower(Chat) == "wearpsp") then
+		if(string.lower(Chat) == "wearpsp" or string.lower(Chat) == "wp") then
 		    game:GetService("ReplicatedStorage").PSPLocker:FireServer("LegHolster")
 		    game:GetService("ReplicatedStorage").PSPLocker:FireServer("SideHolster")
 		    game:GetService("ReplicatedStorage").PSPLocker:FireServer("LegBelt")
