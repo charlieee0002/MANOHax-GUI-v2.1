@@ -1,38 +1,38 @@
 -- made by charlieee#5458 lol
 
-# Basic Player
+-- **Basic Player**
 Reset | RCTRL + R
 Rejoin | RShift + Backsapce
 GodMode | RShift + G
 
-# Driving
+-- **Driving**
 Down Gear | LCTRL
 Up Gear | LALT
 Launch Paintshop GUI | RCTRL + P
 
-# Benefits
+-- **Benefits**
 Remove Ticket | RCTRL + T
 Remove Wanted | RCTRL + W
 Pump Tire | RSHIFT + P
 
-# Tool Givers
+-- **Tool Givers**
 Glock | RCTRL + G
 Sniper | RCTRL + S
 
-# Team Change
+-- **Team Change**
 Civilian | RALT + 1
 MCSO | RALT + 2
 PSP |  RALT + 3
 CMPD | RALT + 4
 
-# AutoBank
+-- **AutoBank**
 Withdraw | RALT + W
 Deposit | RALT + D
 
-# Griefing
+-- **Griefing**
 Cuff all | PATCHED
 
-# Type Commands
+-- **Type Commands**
 -- Buying:
 buyglock // bg
 buyak
