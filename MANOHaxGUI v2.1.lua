@@ -417,13 +417,13 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 			})
         end
 		if(string.lower(Chat) == "mobile") then
-			local args = {
-				[1] = "mobile"
-			}
-			
-			while wait(.2) do
-			game:GetService("ReplicatedStorage").NameTagStuff.Device:FireServer(unpack(args))
-			end
+			game:GetService("RunService").Heartbeat:Connect(function()
+			game:GetService("ReplicatedStorage").NameTagStuff.Device:FireServer("mobile")
+			end)
+			task.wait(.001)
+			game:GetService("RunService").Heartbeat:Connect(function()
+			game:GetService("ReplicatedStorage").NameTagStuff.AFK:FireServer("back")
+			end)
 		end
 		if(string.lower(Chat) == "rgbcar") then
 			-- LOLERN's RGB Car Script
