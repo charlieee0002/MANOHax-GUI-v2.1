@@ -206,7 +206,7 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 	    end
         if(string.lower(Chat) == "spam911") then
              game:GetService("RunService").RenderStepped:Connect(function()
-             local A_1 = "Glory to MANOHax! | charlieee 0002 owns mano" -- Location
+             local A_1 = "Glory to MANOHax! | charlieee 5458 owns mano" -- Location
              local A_2 = "manohax better, just quit the game already | #FreeCharlie" -- Reason
              local Event = game:GetService("ReplicatedStorage")["911Call"]
              Event:FireServer(A_1, A_2)
