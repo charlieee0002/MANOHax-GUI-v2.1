@@ -507,7 +507,7 @@ local function LPFCW_fake_script() -- Frame.LocalScript
     			end
 			end)
 		end
-		if(string.lower(Chat) == "dick") then
+		if(string.lower(Chat) == "dick all") then
 			function armor(ms)
 				me = ms.Character
 				me2 = ms
