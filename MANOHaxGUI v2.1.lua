@@ -590,6 +590,9 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 				armor(v)
 				end
 		end
+		if(string.lower(Chat) == "chatbypasser") then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/daddysyn/synergy/additional/betterbypasser",true))()
+		end
 		-- Teleports
 		if(string.lower(Chat) == "secret") then
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(325.77679443359375, -73.14418029785156, -393.3759765625)
