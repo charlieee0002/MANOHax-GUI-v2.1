@@ -677,11 +677,6 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 				v:Clone().Parent = game:service"Players".LocalPlayer.Backpack
 				end
 			end
-		if(string.lower(Chat) == "jctools") then
-			for _,v in next, game:service"Teams"['Justice Committee']:GetChildren() do
-				v:Clone().Parent = game:service"Players".LocalPlayer.Backpack
-				end
-			end
 		if(string.lower(Chat) == "bd") then
 			local args = {
 				[1] = "afk"
