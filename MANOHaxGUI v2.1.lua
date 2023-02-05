@@ -256,14 +256,6 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 		    Game:GetService("ReplicatedStorage").ATMAction:FireServer("Withdraw", 250)
 		    workspace.DealersScript:WaitForChild("BuyItem"):InvokeServer("Gas Can", 250, "Cash")
 	    end
-		if(string.lower(Chat) == "spamreport") then
-		    game:GetService("RunService").RenderStepped:Connect(function()
-		    local A_1 = "COMMON MANOHAX W"
-		    local A_2 = "#FreeCharlie | #MANOHaxBetter | #SalapraneHasAShittySpeechImpediment | #SyphonLovesKids"
-		    local Event = game:GetService("ReplicatedStorage").ReportEvent
-		    Event:FireServer(A_1, A_2)
-		    end)
-	    end
 		-- Wear Gear
 		if(string.lower(Chat) == "wearmcso") then
 		    game:GetService("ReplicatedStorage").MCSOLocker:FireServer("Vest")
@@ -310,7 +302,7 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 		    game:GetService("ReplicatedStorage").MCFDLocker:FireServer('Sling')	
 		    game:GetService("ReplicatedStorage").MCFDLocker:FireServer("RSCap")
 	    end
-		if(string.lower(Chat) == "spamhorn") then
+		if(string.lower(Chat) == "spamhorn" or string.lower(Chat) == "sh") then
 			local args = {
 				[1] = "PlayHorn",
 				[2] = game:GetService("Players").LocalPlayer.Character.Vehicle.Sound.horn
