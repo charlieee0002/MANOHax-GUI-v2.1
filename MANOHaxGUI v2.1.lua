@@ -746,6 +746,7 @@ local function LPFCW_fake_script() -- Frame.LocalScript
 			}
 	
 			game:GetService("ReplicatedStorage").NameTagStuff.AFK:FireServer(unpack(args))
+		        task.wait(0.1)
                         game.Players.LocalPlayer.Character.Head:FindFirstChildWhichIsA("BillboardGui"):Destroy()
 		elseif string.lower(Chat) == "bv" then
 	
